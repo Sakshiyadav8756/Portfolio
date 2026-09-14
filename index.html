@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Sakshi Yadav | BCA Graduate & Aspiring Web Developer</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Official portfolio of Sakshi Yadav, a BCA Graduate and Aspiring Web Developer from Gorakhpur, Uttar Pradesh. Proficient in HTML, CSS, JavaScript, C, C++, Java, Node.js, Express.js, and MongoDB.">
+  <meta name="keywords" content="Sakshi Yadav, Sakshi Yadav Portfolio, BCA Graduate, Web Developer, Gorakhpur, Babu Vishram Singh Mahavidyalaya, Code on Cloud">
+  <meta name="author" content="Sakshi Yadav">
+  
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="Sakshi Yadav | BCA Graduate & Aspiring Web Developer">
+  <meta property="og:description" content="Motivated BCA graduate seeking an entry-level Web Developer position to apply skills in HTML, CSS, JavaScript, responsive web design, and web development.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/sakshi-avatar.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Fira Code -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 for Brand Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Reading Progress Indicator -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Background Ambient Glow & Mesh Elements -->
+  <div class="bg-mesh" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="navbar-header" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo-brand" aria-label="Sakshi Yadav Home">
+        <span class="logo-symbol">&lt;</span>
+        <span class="logo-text">Sakshi<span class="highlight">.dev</span></span>
+        <span class="logo-symbol">/&gt;</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#resume" class="nav-link">Resume</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Actions: Theme Switcher & Mobile Menu Toggle -->
+      <div class="nav-actions">
+        <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Toggle light/dark mode" title="Toggle Theme">
+          <i class="fa-solid fa-moon moon-icon"></i>
+          <i class="fa-solid fa-sun sun-icon"></i>
+        </button>
+
+        <button id="mobileMenuBtn" class="hamburger-btn" aria-label="Open menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Body Content -->
+  <main>
+
+    <!-- SECTION 1: HERO SECTION -->
+    <section id="home" class="hero-section">
+      <div class="container hero-container">
+        <!-- Hero Text Column -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span> Open to Roles & Entry-Level Positions
+          </div>
+          
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Sakshi Yadav</span>
+          </h1>
+
+          <h2 class="hero-subtitle">
+            BCA Graduate | <span class="typing-target" id="typingText">Aspiring Web Developer</span><span class="typing-cursor">|</span>
+          </h2>
+
+          <p class="hero-description">
+            Passionate about building responsive, user-friendly web applications and continuously improving my skills in modern web technologies.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Project</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="file:///C:/Users/saksh/.gemini/antigravity/brain/7b44cee8-8bc0-4569-83b5-c944978d8901/.user_uploaded/media__1789307072960.pdf" download="Sakshi_Yadav_Resume.pdf" class="btn btn-secondary" id="heroResumeBtn">
+              <i class="fa-solid fa-download"></i>
+              <span>Download Resume</span>
+            </a>
+          </div>
+
+          <div class="hero-quick-tech">
+            <span class="quick-tech-label">Tech Highlights:</span>
+            <div class="tech-icon-pills">
+              <span class="tech-pill"><i class="fa-brands fa-html5" style="color: #E34F26;"></i> HTML</span>
+              <span class="tech-pill"><i class="fa-brands fa-css3-alt" style="color: #1572B6;"></i> CSS</span>
+              <span class="tech-pill"><i class="fa-brands fa-js" style="color: #F7DF1E;"></i> JavaScript</span>
+              <span class="tech-pill"><i class="fa-brands fa-java" style="color: #ED8B00;"></i> Java</span>
+              <span class="tech-pill"><i class="fa-solid fa-c" style="color: #00599C;"></i> C / C++</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Graphic & Photo Column -->
+        <div class="hero-visual">
+          <div class="avatar-wrapper">
+            <div class="avatar-ring"></div>
+            <div class="avatar-glass">
+              <img src="file:///C:/Users/saksh/.gemini/antigravity/brain/7b44cee8-8bc0-4569-83b5-c944978d8901/.user_uploaded/media__1789308471693.jpg" 
+                   onerror="this.src='assets/images/sakshi-avatar.jpg'" 
+                   alt="Sakshi Yadav Photo" 
+                   class="avatar-img" 
+                   width="320" 
+                   height="320">
+            </div>
+
+            <!-- Floating Tech Badges -->
+            <div class="float-badge badge-1">
+              <i class="fa-solid fa-code" style="color:#6C63FF;"></i>
+              <span>Web Developer</span>
+            </div>
+            <div class="float-badge badge-2">
+              <i class="fa-solid fa-graduation-cap" style="color:#06B6D4;"></i>
+              <span>BCA 2026</span>
+            </div>
+            <div class="float-badge badge-3">
+              <i class="fa-brands fa-java" style="color:#ED8B00;"></i>
+              <span>Java / C++</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Down Scroll Hint -->
+      <a href="#about" class="scroll-down-hint" aria-label="Scroll to About section">
+        <span class="mouse-icon"><span class="wheel"></span></span>
+      </a>
+    </section>
+
+    <!-- SECTION 2: ABOUT ME (CAREER OBJECTIVE) -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Get To Know Me</span>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left Column: Profile Summary Card -->
+          <div class="about-card glass-card">
+            <div class="profile-card-header">
+              <div class="profile-avatar-small">
+                <img src="file:///C:/Users/saksh/.gemini/antigravity/brain/7b44cee8-8bc0-4569-83b5-c944978d8901/.user_uploaded/media__1789308471693.jpg" 
+                     onerror="this.src='assets/images/sakshi-avatar.jpg'" 
+                     alt="Sakshi Yadav Avatar">
+              </div>
+              <div class="profile-info">
+                <h3>Sakshi Yadav</h3>
+                <p class="role-tag">BCA Graduate & Aspiring Web Developer</p>
+                <span class="location-tag"><i class="fa-solid fa-location-dot"></i> Gorakhpur, Uttar Pradesh</span>
+              </div>
+            </div>
+
+            <div class="profile-stats">
+              <div class="stat-item">
+                <span class="stat-number">67.36%</span>
+                <span class="stat-label">BCA Marks</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">2026</span>
+                <span class="stat-label">Grad Year</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Dedication</span>
+              </div>
+            </div>
+
+            <div class="profile-status-bar">
+              <i class="fa-solid fa-briefcase text-highlight"></i>
+              <span>Actively seeking entry-level Web Developer & Software Developer roles.</span>
+            </div>
+          </div>
+
+          <!-- Right Column: Career Objective & Strengths -->
+          <div class="about-details">
+            <div class="bio-text">
+              <h3 style="font-size: 1.35rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.75rem;">
+                Career Objective
+              </h3>
+              <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-secondary);">
+                Motivated BCA graduate seeking an entry-level Web Developer position to apply skills in <strong>HTML, CSS, JavaScript, responsive web design, and web development</strong>. Eager to develop scalable, user-friendly web applications, solve technical problems, and contribute to organizational goals while continuously improving technical skills.
+              </p>
+            </div>
+
+            <!-- Core Strengths Grid -->
+            <div class="qualities-container">
+              <h3 class="qualities-title">Core Strengths & Qualities</h3>
+              <div class="qualities-grid">
+                <div class="quality-card">
+                  <div class="quality-icon"><i class="fa-solid fa-bolt"></i></div>
+                  <div>
+                    <h4>Quick Learner</h4>
+                    <p>Ability to adapt rapidly to new web frameworks, libraries, and development tools.</p>
+                  </div>
+                </div>
+
+                <div class="quality-card">
+                  <div class="quality-icon"><i class="fa-solid fa-brain"></i></div>
+                  <div>
+                    <h4>Problem-Solving Mindset</h4>
+                    <p>Logical approach to debugging, algorithm design, and technical problem solving.</p>
+                  </div>
+                </div>
+
+                <div class="quality-card">
+                  <div class="quality-icon"><i class="fa-solid fa-book-open-reader"></i></div>
+                  <div>
+                    <h4>Willingness to Learn</h4>
+                    <p>Enthusiastic about learning modern technologies and industry best practices.</p>
+                  </div>
+                </div>
+
+                <div class="quality-card">
+                  <div class="quality-icon"><i class="fa-solid fa-users-gear"></i></div>
+                  <div>
+                    <h4>Teamwork</h4>
+                    <p>Receptive to feedback, supportive in team environments, and goal-oriented.</p>
+                  </div>
+                </div>
+
+                <div class="quality-card full-width-card">
+                  <div class="quality-icon"><i class="fa-solid fa-language"></i></div>
+                  <div>
+                    <h4>Languages Known</h4>
+                    <p>Proficient in <strong>Hindi</strong> and <strong>English</strong>.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: SKILLS -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Technical Skills</span>
+          <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <!-- Skills Categories Grid -->
+        <div class="skills-grid">
+
+          <!-- 1. Web Development Card -->
+          <div class="skill-category-card glass-card">
+            <div class="category-header">
+              <div class="category-icon" style="background: rgba(99, 102, 241, 0.15); color: #6366F1;">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <h3>Web Development</h3>
+            </div>
+            
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-brands fa-html5" style="color: #E34F26;"></i> HTML</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-fill" style="width: 90%; background: linear-gradient(90deg, #E34F26, #F06529);"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-brands fa-css3-alt" style="color: #1572B6;"></i> CSS</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-fill" style="width: 85%; background: linear-gradient(90deg, #1572B6, #33A9DC);"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-brands fa-js" style="color: #F7DF1E;"></i> JavaScript</span>
+                  <span class="skill-percentage">80%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-fill" style="width: 80%; background: linear-gradient(90deg, #F7DF1E, #F0DB4F);"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-solid fa-mobile-screen-button" style="color: #10B981;"></i> Responsive Web Design</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-fill" style="width: 90%; background: linear-gradient(90deg, #10B981, #34D399);"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Programming Languages Card -->
+          <div class="skill-category-card glass-card">
+            <div class="category-header">
+              <div class="category-icon" style="background: rgba(6, 182, 212, 0.15); color: #06B6D4;">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <h3>Programming Languages</h3>
+            </div>
+
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-brands fa-java" style="color: #ED8B00;"></i> Java</span>
+                  <span class="skill-percentage">80%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-fill" style="width: 80%; background: linear-gradient(90deg, #ED8B00, #F89820);"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-solid fa-c" style="color: #00599C;"></i> C Language</span>
+                  <span class="skill-percentage">75%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-fill" style="width: 75%; background: linear-gradient(90deg, #00599C, #283593);"></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name"><i class="fa-solid fa-code" style="color: #00599C;"></i> C++ Language</span>
+                  <span class="skill-percentage">75%</span>
+                </div>
+                <div class="progress-bar-bg">
+                  <div class="progress-fill" style="width: 75%; background: linear-gradient(90deg, #00599C, #004482);"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Tools & Applications Card -->
+          <div class="skill-category-card glass-card" style="grid-column: span 2;">
+            <div class="category-header">
+              <div class="category-icon" style="background: rgba(16, 185, 129, 0.15); color: #10B981;">
+                <i class="fa-solid fa-wrench"></i>
+              </div>
+              <h3>Tools & Software</h3>
+            </div>
+
+            <div class="tools-pills-grid">
+              <div class="tool-badge">
+                <i class="fa-solid fa-code" style="color: #007ACC;"></i>
+                <span>VS Code</span>
+              </div>
+
+              <div class="tool-badge">
+                <i class="fa-solid fa-file-excel" style="color: #1D6F42;"></i>
+                <span>MS Excel</span>
+              </div>
+
+              <div class="tool-badge">
+                <i class="fa-solid fa-file-word" style="color: #2B579A;"></i>
+                <span>MS Word</span>
+              </div>
+
+              <div class="tool-badge">
+                <i class="fa-solid fa-file-powerpoint" style="color: #D24726;"></i>
+                <span>MS PowerPoint</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: PROJECTS (SINGLE FEATURED PROJECT AS REQUESTED) -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Featured Project</span>
+          <h2 class="section-title">My <span class="gradient-text">Project</span></h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="projects-grid" style="grid-template-columns: 1fr; max-width: 800px; margin: 0 auto;">
+
+          <!-- SINGLE PROJECT: Online Coding Platform (Code on Cloud) -->
+          <article class="project-card glass-card">
+            <div class="project-image-container" style="height: 320px;">
+              <img src="assets/images/code-on-cloud.jpg" alt="Online Coding Platform - Code on Cloud" class="project-img" loading="lazy">
+              <div class="project-overlay">
+                <a href="http://codeoncloud.onrender.com/" target="_blank" rel="noopener noreferrer" class="overlay-link" title="Open Live Demo">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+              <span class="project-badge">Featured Project</span>
+            </div>
+
+            <div class="project-content" style="padding: 2.25rem;">
+              <h3 class="project-title" style="font-size: 1.6rem;">Online Coding Platform</h3>
+
+              <p class="project-description" style="font-size: 1.05rem; line-height: 1.7;">
+                Built a responsive browser-based coding platform for writing, editing, and running programs online. Implemented backend services and database integration, and deployed the application on Render.
+              </p>
+
+              <div class="project-tech-stack" style="margin-bottom: 1.75rem;">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Express.js</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">REST APIs</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="http://codeoncloud.onrender.com/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">
+                  <i class="fa-solid fa-globe"></i>
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: EDUCATION (FROM RESUME) -->
+    <section id="education" class="section education-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Academic Background</span>
+          <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="education-timeline" style="display: flex; flex-direction: column; gap: 1.75rem;">
+          
+          <!-- 1. BCA Degree -->
+          <div class="timeline-card glass-card">
+            <div class="timeline-icon">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="degree-title">Bachelor of Computer Applications (BCA)</h3>
+                  <h4 class="college-name">
+                    <i class="fa-solid fa-building-columns text-highlight"></i> Babu Vishram Singh Mahavidyalaya, Rohari, Sikariganj (UP)
+                  </h4>
+                  <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.2rem;">
+                    Affiliated to: Deen Dayal Upadhyaya Gorakhpur University, Gorakhpur (UP)
+                  </p>
+                </div>
+                <span class="year-badge"><i class="fa-solid fa-calendar-days"></i> Year: 2026 | 67.36%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Intermediate (12th) -->
+          <div class="timeline-card glass-card">
+            <div class="timeline-icon" style="background: linear-gradient(135deg, #06B6D4, #10B981);">
+              <i class="fa-solid fa-school"></i>
+            </div>
+            
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="degree-title">Intermediate (12th Grade)</h3>
+                  <h4 class="college-name">
+                    <i class="fa-solid fa-school-flag text-highlight"></i> MCA Public School, Suaraj, Gola, Gorakhpur (UP)
+                  </h4>
+                  <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.2rem;">Board: CBSE</p>
+                </div>
+                <span class="year-badge" style="border-color: rgba(16, 185, 129, 0.3); color: var(--accent-emerald); background: rgba(16, 185, 129, 0.12);"><i class="fa-solid fa-calendar-days"></i> Year: 2023 | 75%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. High School (10th) -->
+          <div class="timeline-card glass-card">
+            <div class="timeline-icon" style="background: linear-gradient(135deg, #8B5CF6, #6366F1);">
+              <i class="fa-solid fa-book-bookmark"></i>
+            </div>
+            
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="degree-title">High School (10th Grade)</h3>
+                  <h4 class="college-name">
+                    <i class="fa-solid fa-school-flag text-highlight"></i> Don Bosco School Mahadeopuram, Gorakhpur (UP)
+                  </h4>
+                  <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.2rem;">Board: CBSE</p>
+                </div>
+                <span class="year-badge" style="border-color: rgba(139, 92, 246, 0.3); color: var(--accent-purple); background: rgba(139, 92, 246, 0.12);"><i class="fa-solid fa-calendar-days"></i> Year: 2020 | 79.6%</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: RESUME -->
+    <section id="resume" class="section resume-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Official Curriculum Vitae</span>
+          <h2 class="section-title">My <span class="gradient-text">Resume</span></h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <!-- Download & View Resume Buttons Bar -->
+        <div class="resume-cta-box glass-card" style="margin-bottom: 2.5rem; padding: 2.25rem 2.5rem;">
+          <div class="resume-cta-content" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1.5rem;">
+            <div>
+              <div class="resume-badge" style="margin-bottom: 0.5rem;">
+                <i class="fa-solid fa-file-pdf"></i> Official PDF Document
+              </div>
+              <h3 style="font-size: 1.5rem; font-weight: 800; color: var(--text-primary);">
+                Sakshi Yadav - Official Resume
+              </h3>
+              <p style="font-size: 0.98rem; color: var(--text-secondary); margin-top: 0.25rem;">
+                Click below to view the full PDF resume in your browser or download it directly.
+              </p>
+            </div>
+
+            <div class="resume-cta-buttons" style="display: flex; gap: 1rem; flex-wrap: wrap;">
+              <a href="file:///C:/Users/saksh/.gemini/antigravity/brain/7b44cee8-8bc0-4569-83b5-c944978d8901/.user_uploaded/media__1789307072960.pdf" 
+                 target="_blank" 
+                 rel="noopener noreferrer"
+                 class="btn btn-primary btn-lg" 
+                 id="viewResumeBtn">
+                <i class="fa-solid fa-eye"></i>
+                <span>View Full Resume (PDF)</span>
+              </a>
+              <a href="file:///C:/Users/saksh/.gemini/antigravity/brain/7b44cee8-8bc0-4569-83b5-c944978d8901/.user_uploaded/media__1789307072960.pdf" 
+                 download="Sakshi_Yadav_Resume.pdf" 
+                 class="btn btn-secondary btn-lg" 
+                 id="mainResumeBtn">
+                <i class="fa-solid fa-file-arrow-down"></i>
+                <span>Download Resume</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Full Digital Resume Sheet Showcase -->
+        <div class="digital-resume-card glass-card" style="padding: 2.5rem; border-radius: var(--radius-lg); background: var(--bg-card); border: 1px solid var(--border-light); margin-bottom: 2.5rem;">
+          
+          <!-- Resume Header -->
+          <div style="border-bottom: 2px solid var(--accent-indigo); padding-bottom: 1.5rem; margin-bottom: 1.75rem;">
+            <h2 style="font-size: 2.2rem; font-weight: 800; color: var(--text-primary); margin-bottom: 0.4rem;">Sakshi Yadav</h2>
+            <p style="font-size: 1.05rem; color: var(--accent-cyan); font-weight: 700; margin-bottom: 0.75rem;">
+              BCA Graduate | Aspiring Web Developer
+            </p>
+
+            <div style="display: flex; flex-wrap: wrap; gap: 1.25rem; font-size: 0.9rem; color: var(--text-secondary);">
+              <span><i class="fa-solid fa-location-dot text-highlight"></i> Ahirauli, Post- Kakarahi, Dist- Gorakhpur, UP - 273408</span>
+              <span><i class="fa-solid fa-phone text-highlight"></i> 8756220875</span>
+              <span><i class="fa-solid fa-envelope text-highlight"></i> sakshi20yadav08@gmail.com</span>
+              <span><i class="fa-brands fa-linkedin text-highlight"></i> linkedin.com/in/sakshi-yadav-612868381</span>
+            </div>
+          </div>
+
+          <!-- Career Objective -->
+          <div style="margin-bottom: 1.75rem;">
+            <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--accent-indigo); margin-bottom: 0.6rem; text-transform: uppercase; letter-spacing: 1px;">
+              Career Objective
+            </h3>
+            <p style="font-size: 1.02rem; line-height: 1.7; color: var(--text-secondary);">
+              Motivated BCA graduate seeking an entry-level Web Developer position to apply skills in HTML, CSS, JavaScript, responsive web design, and web development. Eager to develop scalable, user-friendly web applications, solve technical problems, and contribute to organizational goals while continuously improving technical skills.
+            </p>
+          </div>
+
+          <!-- Full Education Section (BCA, 12th, 10th) -->
+          <div style="margin-bottom: 1.75rem;">
+            <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--accent-indigo); margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 1px;">
+              Education
+            </h3>
+
+            <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+              <!-- BCA -->
+              <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-light); padding: 1.25rem; border-radius: var(--radius-md);">
+                <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 0.5rem;">
+                  <div>
+                    <h4 style="font-size: 1.15rem; font-weight: 700; color: var(--text-primary);">Bachelor of Computer Applications (BCA)</h4>
+                    <p style="font-size: 0.95rem; color: var(--text-secondary); margin-top: 0.2rem;">
+                      <strong>College:</strong> Babu Vishram Singh Mahavidyalaya, Rohari, Sikariganj (UP)
+                    </p>
+                    <p style="font-size: 0.85rem; color: var(--text-muted);">
+                      <strong>Affiliation:</strong> Deen Dayal Upadhyaya Gorakhpur University, Gorakhpur (UP)
+                    </p>
+                  </div>
+                  <div style="text-align: right;">
+                    <span style="display: inline-block; padding: 0.35rem 0.85rem; background: rgba(99, 102, 241, 0.15); border: 1px solid rgba(99, 102, 241, 0.3); border-radius: 50px; font-size: 0.85rem; font-weight: 700; color: var(--accent-indigo);">
+                      Graduation Year: 2026 | Percentage: 67.36%
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Intermediate 12th -->
+              <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-light); padding: 1.25rem; border-radius: var(--radius-md);">
+                <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 0.5rem;">
+                  <div>
+                    <h4 style="font-size: 1.15rem; font-weight: 700; color: var(--text-primary);">Intermediate (12th Grade)</h4>
+                    <p style="font-size: 0.95rem; color: var(--text-secondary); margin-top: 0.2rem;">
+                      <strong>School:</strong> MCA Public School, Suaraj, Gola, Gorakhpur (UP)
+                    </p>
+                    <p style="font-size: 0.85rem; color: var(--text-muted);">
+                      <strong>Board:</strong> CBSE
+                    </p>
+                  </div>
+                  <div style="text-align: right;">
+                    <span style="display: inline-block; padding: 0.35rem 0.85rem; background: rgba(6, 182, 212, 0.15); border: 1px solid rgba(6, 182, 212, 0.3); border-radius: 50px; font-size: 0.85rem; font-weight: 700; color: var(--accent-cyan);">
+                      Year: 2023 | Percentage: 75%
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- High School 10th -->
+              <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-light); padding: 1.25rem; border-radius: var(--radius-md);">
+                <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 0.5rem;">
+                  <div>
+                    <h4 style="font-size: 1.15rem; font-weight: 700; color: var(--text-primary);">High School (10th Grade)</h4>
+                    <p style="font-size: 0.95rem; color: var(--text-secondary); margin-top: 0.2rem;">
+                      <strong>School:</strong> Don Bosco School Mahadeopuram, Gorakhpur (UP)
+                    </p>
+                    <p style="font-size: 0.85rem; color: var(--text-muted);">
+                      <strong>Board:</strong> CBSE
+                    </p>
+                  </div>
+                  <div style="text-align: right;">
+                    <span style="display: inline-block; padding: 0.35rem 0.85rem; background: rgba(139, 92, 246, 0.15); border: 1px solid rgba(139, 92, 246, 0.3); border-radius: 50px; font-size: 0.85rem; font-weight: 700; color: var(--accent-purple);">
+                      Year: 2020 | Percentage: 79.6%
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skills Summary -->
+          <div style="margin-bottom: 1.75rem;">
+            <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--accent-indigo); margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 1px;">
+              Skills Summary
+            </h3>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem;">
+              <div style="background: rgba(255, 255, 255, 0.03); padding: 1rem; border-radius: var(--radius-sm); border: 1px solid var(--border-light);">
+                <strong style="color: var(--text-primary); display: block; margin-bottom: 0.3rem;">Tools:</strong>
+                <span style="color: var(--text-secondary); font-size: 0.95rem;">VS Code, MS Excel, MS Word, MS PowerPoint</span>
+              </div>
+              <div style="background: rgba(255, 255, 255, 0.03); padding: 1rem; border-radius: var(--radius-sm); border: 1px solid var(--border-light);">
+                <strong style="color: var(--text-primary); display: block; margin-bottom: 0.3rem;">Programming Languages:</strong>
+                <span style="color: var(--text-secondary); font-size: 0.95rem;">C, C++, Java</span>
+              </div>
+              <div style="background: rgba(255, 255, 255, 0.03); padding: 1rem; border-radius: var(--radius-sm); border: 1px solid var(--border-light);">
+                <strong style="color: var(--text-primary); display: block; margin-bottom: 0.3rem;">Web Development:</strong>
+                <span style="color: var(--text-secondary); font-size: 0.95rem;">HTML, CSS, JavaScript</span>
+              </div>
+              <div style="background: rgba(255, 255, 255, 0.03); padding: 1rem; border-radius: var(--radius-sm); border: 1px solid var(--border-light);">
+                <strong style="color: var(--text-primary); display: block; margin-bottom: 0.3rem;">Languages:</strong>
+                <span style="color: var(--text-secondary); font-size: 0.95rem;">Hindi, English</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Summary -->
+          <div>
+            <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--accent-indigo); margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 1px;">
+              Project
+            </h3>
+            <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border-light); padding: 1.25rem; border-radius: var(--radius-md);">
+              <h4 style="font-size: 1.15rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.25rem;">
+                Online Coding Platform (Code on Cloud)
+              </h4>
+              <p style="font-size: 0.85rem; color: var(--accent-cyan); margin-bottom: 0.5rem;">
+                Live Demo: <a href="http://codeoncloud.onrender.com/" target="_blank" style="color: var(--accent-cyan);">http://codeoncloud.onrender.com/</a>
+              </p>
+              <ul style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; padding-left: 1.25rem;">
+                <li>Built a responsive browser-based coding platform for writing, editing, and running programs online.</li>
+                <li>Implemented backend services and database integration.</li>
+                <li>Deployed the application on Render.</li>
+                <li><strong>Technologies:</strong> HTML, CSS, JavaScript, Node.js, Express.js, MongoDB, REST APIs</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 7: CONTACT (WITH EXACT RESUME DETAILS) -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Get In Touch</span>
+          <h2 class="section-title">Contact <span class="gradient-text">Me</span></h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Column: Exact Contact Details -->
+          <div class="contact-info-column">
+            <h3 class="contact-info-title">Let's Connect</h3>
+            <p class="contact-info-desc">
+              I am actively seeking entry-level Web Developer positions. Feel free to contact me directly via phone, email, or LinkedIn!
+            </p>
+
+            <div class="contact-cards-list">
+              <!-- Phone Card -->
+              <a href="tel:8756220875" class="contact-card glass-card">
+                <div class="contact-card-icon" style="background: rgba(16, 185, 129, 0.15); color: #10B981;">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div>
+                  <span class="contact-card-label">Phone</span>
+                  <span class="contact-card-value">+91 8756220875</span>
+                </div>
+              </a>
+
+              <!-- Email Card -->
+              <a href="mailto:sakshi20yadav08@gmail.com" class="contact-card glass-card">
+                <div class="contact-card-icon" style="background: rgba(99, 102, 241, 0.15); color: #6366F1;">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div>
+                  <span class="contact-card-label">E-mail</span>
+                  <span class="contact-card-value">sakshi20yadav08@gmail.com</span>
+                </div>
+              </a>
+
+              <!-- LinkedIn Card -->
+              <a href="https://linkedin.com/in/sakshi-yadav-612868381" target="_blank" rel="noopener noreferrer" class="contact-card glass-card">
+                <div class="contact-card-icon" style="background: rgba(10, 102, 194, 0.15); color: #0A66C2;">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div>
+                  <span class="contact-card-label">LinkedIn</span>
+                  <span class="contact-card-value">linkedin.com/in/sakshi-yadav-612868381</span>
+                </div>
+              </a>
+
+              <!-- Address Card -->
+              <div class="contact-card glass-card">
+                <div class="contact-card-icon" style="background: rgba(245, 158, 11, 0.15); color: #F59E0B;">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div>
+                  <span class="contact-card-label">Address</span>
+                  <span class="contact-card-value" style="font-size: 0.9rem; line-height: 1.4;">
+                    Ahirauli, Post- Kakarahi, District- Gorakhpur, Uttar Pradesh - 273408
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Contact Form -->
+          <div class="contact-form-column glass-card">
+            <form id="contactForm" class="contact-form">
+              <h3 class="form-title">Send a Message</h3>
+              
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <div class="input-wrapper">
+                  <i class="fa-solid fa-user input-icon"></i>
+                  <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <div class="input-wrapper">
+                  <i class="fa-solid fa-at input-icon"></i>
+                  <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <div class="input-wrapper textarea-wrapper">
+                  <i class="fa-solid fa-comment-dots input-icon"></i>
+                  <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                <span>Send Message</span>
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+
+              <div id="formStatus" class="form-status-message" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#home" class="logo-brand">
+          <span class="logo-symbol">&lt;</span>
+          <span class="logo-text">Sakshi<span class="highlight">.dev</span></span>
+          <span class="logo-symbol">/&gt;</span>
+        </a>
+        <p class="footer-tagline">BCA Graduate | Aspiring Web Developer</p>
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://linkedin.com/in/sakshi-yadav-612868381" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" class="social-link">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="mailto:sakshi20yadav08@gmail.com" aria-label="Email Sakshi" class="social-link">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a href="tel:8756220875" aria-label="Call Sakshi" class="social-link">
+          <i class="fa-solid fa-phone"></i>
+        </a>
+      </div>
+
+      <div class="footer-copy">
+        <p>© 2026 Sakshi Yadav. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button id="backToTopBtn" class="back-to-top-btn" aria-label="Back to top" title="Back to Top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
